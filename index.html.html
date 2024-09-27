@@ -1,0 +1,1262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+
+    <style>
+    /* -----------------div 1--------------------      */
+        .bg{
+            height: 500px;
+            width: 1500px;
+            background-image:linear-gradient(130deg,var(--a),var(--s)),url(img.jpg); 
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+            margin-top: 0%;
+            background-color: rgb(152, 121, 231);
+        }
+  /* -----------------div 1--------------------      */
+        :root{
+            --a:hsla(205, 88%, 77%, 0.65);
+            --s:hsla(79, 100%, 54%, 0.36);
+          }
+
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 10%;
+            background-color: var(--text);
+        }
+        a{
+            text-decoration: none;
+            color: #ffffff;
+            z-index:0;
+            margin-left:65px;
+            margin-top: 100px;
+        }
+/* ---------------------nav bar------------------------- */
+        .nav-links{
+            /* list-style: none;
+            margin-left: 300px; */
+            margin-left:-200px;
+            position: absolute;
+            height: 45px;
+            width: 1450px;
+            background-color: rgb(78, 60, 58);
+            text-align: center;
+            align-items: center;
+            align-content: center;
+            margin-top:-15px;
+            opacity: 0.7;
+            position: fixed;
+            z-index: 5;
+        }
+
+/* ---------------------nav bar------------------------- */
+
+        .nav-links li{
+
+            display: inline-block;
+            padding: 0px 5px;
+        
+        }
+
+        .nav-links li a.active { 
+            color: var(--active);
+        }
+
+        .nav-links li a:hover { 
+            color: rgb(13, 255, 0);
+        }
+
+        .nav-links li a:hover{
+            transition: 0.5s;
+            font-size: 18px;
+
+        }
+        
+     
+         
+      
+        .pre{
+            height: 150px;
+            width: 220px;
+            background-color: rgb(236, 217, 8);
+            position: fixed;
+            margin-top: 200px;
+            z-index: 2;
+         
+        }
+
+        .pres{
+            
+            border-left: 48px solid  rgb(236, 217, 8);
+               border-bottom: 75px solid transparent;
+               border-top: 75px solid transparent;
+               height:0px;
+               width:0px;
+               position: fixed;
+               margin-bottom:  40px;
+               margin-left: 220px;
+               margin-top: 198px;
+               z-index: 2;
+           }
+
+        .a{
+            margin-left: 200px;
+            margin-top: 5px;
+            position: absolute;
+        }
+
+        .b{
+            margin-left: 500px;
+            margin-top:120px ;
+            position: absolute;
+            color: rgb(246, 246, 246);
+        }
+
+        .c{
+            margin-left: 600px;
+            margin-top: 100px;
+            position: absolute;
+            display: flex;
+           }
+/* 
+        .sdb{
+            height: 500px;
+            width:100%;
+            background-color: rgb(148, 248, 188);
+            text-align: center;
+            align-items: end;
+            position: relative;
+            
+        } */
+
+          /* -----------------div 7--------------------      */
+         .para{
+            height: 1000px;
+            width: 1500px;
+            position: relative;
+            background: #e39090;
+            top: 10px;
+         }
+           /* -----------------div 7--------------------      */
+
+         .ap{
+            position: absolute;
+            top: 100px;
+            left: 500px;
+         }
+
+         .sen{
+            position: absolute;
+            top: 100px;
+            left: 220px;
+           
+         }
+
+        .sd{
+            position: absolute;
+            left:300px;
+            top: 1450px;
+        }
+
+        .ct{
+            position: absolute;
+            left: -10px;
+            top: 1450px;
+        }
+
+        .cg{
+            top: 1450px;
+            left: 700px;
+            position: absolute;
+        }
+
+        .Vac{
+            top: 1450px;
+            left: 1000px;
+            position: absolute;
+          }
+  /* -----------------div 2--------------------      */
+        .facts{
+
+            height: 500px;
+            width: 1500px;
+            background-image: linear-gradient(130deg,var(--c),var(--k)),url(stu\ 2.jpg);
+            background-size:cover;
+            background-repeat: no-repeat;
+            position: relative;
+            top: -50px;
+            z-index: 1;
+            /* background: rgb(219, 186, 125); */
+  /* -----------------div 2--------------------      */  
+         
+           
+            
+        }
+
+        :root{
+            --c:hsla(312, 97%, 46%, 0.65);
+            --k:hsla(192, 80%, 75%, 0.65);
+
+        }
+
+        .h2{
+            
+            position: relative;
+            left: 10px;
+            top: 10px;
+        }
+
+        /* software developed no */
+        .sd1{   
+
+            position: absolute;
+            left: 180px;
+            top: 150px;
+        }
+        /* interview task no */
+        .ps{
+
+            position: absolute;
+            left: 850px;
+            top: 150px;
+         }
+         /* placed students no */
+         .it{
+            position: absolute;
+            left: 160px;
+            top: 350px;
+         }
+        /* corporate trainers no */
+         .ct1{
+
+             position: absolute;
+             left: 870px;
+             top: 350px;
+            }
+            /* software developed */
+        .w{
+            position: absolute;
+            top: 170px;
+            left: 300px;
+        }
+        /* placed students */
+        .x{
+            position: absolute;
+            top: 370px;
+            left: 320px;
+        }
+        /* interview task  */
+        .y{
+            position: absolute;
+            top: 170px;
+            left: 1000px;
+        }
+        /* corporate trainers */
+        .z{
+            position: absolute;
+            top: 370px;
+            left: 1000px;
+        }
+        
+        
+          
+          /* -----------------div 3--------------------      */   
+        .course{
+            height: 600px;
+            width: 1500px;
+            background: #ffffff;
+            position: relative;
+            top: -40px;
+            z-index: 1;
+            background: #e39090;
+        }
+          /* -----------------div 3--------------------      */
+
+        .oc{
+            position: absolute;
+            left: 430px;
+            top:100px; 
+        }
+
+
+
+
+
+        .programming{
+             display: inline-block;
+             left: 50px;
+             top: 100px;
+             position: absolute;
+             font-size: x-large;
+             text-align: left;
+        }
+
+         .Webdevelopment{
+            display: inline-block;
+             left: 350px;
+             top: 100px;
+             position: absolute;
+             font-size: x-large;
+             text-align: left;
+        }
+
+        .technology{
+
+            display: inline-block;
+            margin-left: 50px;
+            top: 100px;
+            position: absolute;
+            font-size: x-large;
+            text-align: left;
+        }
+
+        .DigitalMarketing{
+
+            display: inline-block;
+             margin-left: 350px;
+             top: 100px;
+             position: absolute;
+             font-size: x-large;
+             text-align: left;
+        }
+
+        .MobileApplication{
+
+            display: inline-block;
+             margin-left: -650px;
+             position: absolute;
+             top: 350px;
+             font-size: x-large;
+             text-align: left;
+
+           
+            
+        }
+
+        .DataScience{
+
+            display: inline-block;
+             left: 350px;
+             position: absolute;
+             top: 350px;
+             font-size: x-large;
+             text-align: left;
+
+           
+        }
+        .UIUXDesign{
+
+            display: inline-block;
+             margin-left: 50px;
+             position: absolute;
+             top: 350px;
+             font-size: x-large;
+             text-align: left;
+            
+        }
+        .Training{
+
+            display: inline-block;
+             margin-left: 350px;
+             position: absolute;
+             top: 350px;
+             font-size: x-large;
+             text-align: left;
+            
+            
+            
+        }
+  /* -----------------div 4--------------------      */
+        .contact{
+
+            height: 400px;
+            width: 1500px;
+            position: relative;
+            top:-1100px;
+            background: grey;
+        }
+      /* -----------------div 4--------------------      */
+
+        .cu{
+            position: absolute;
+            left: 400px;
+        }
+
+    
+
+    .letters input{
+        height: 20px;
+        width: 800px;
+        margin-top: 20px;
+    }
+
+
+    .number input{
+
+        height: 20px;
+        width: 800px;
+        margin-top: 20px;
+    }
+
+     .mail input{
+
+      margin-top: 20px;
+      width: 800px;
+      margin-top: 20px;
+      }
+
+      .message input{
+
+        margin-top: 20px;
+        height: 100px;
+        width: 800px;
+      }
+
+      .button{
+        height: 30px;
+        width: 60px;
+        margin-left: -750px;
+        margin-top: 20px;
+    }
+
+    /* Training style start */
+
+  /* -----------------div 5--------------------      */
+    .Training2{
+
+        height: 1000px;
+        width: 1500px;
+        position: relative;
+        margin-left: 0px;
+        margin-top: 2%;
+        background: #7bd3b0;
+    }
+  /* -----------------div 5--------------------      */
+    .trn{
+
+        left: 400px;
+        top: 100px;
+        position: absolute;
+
+        /* display: flexbox; */
+    }
+
+    .ALL{
+       
+        height: 50PX;
+        width: 100PX;
+        border: 1px solid black;
+        text-align: center;
+        align-content: center;
+        position: absolute;
+        top: 100px;
+    }
+
+    .ALL:HOVER{
+       
+        color: rgb(255, 255, 255);
+        background-color:blue;
+    }
+
+    
+    .OUR{
+       
+        height: 50PX;
+        width: 100PX;
+        border: 1px solid black;
+        text-align: center;
+        align-content: center;
+        left: 200px;
+        top: 100px;
+        position: absolute;
+    }
+
+    .OUR:HOVER{
+       
+       color: rgb(255, 255, 255);
+       background-color:blue;
+   }
+
+    .KRCE{
+        height: 50PX;
+        width: 100PX;
+        border: 1px solid black;
+        text-align: center;
+        align-content: center;
+        position: absolute;
+        left: 400PX;
+        top: 100PX;
+    }
+
+    .KRCE:HOVER{
+       
+       color: rgb(255, 255, 255);
+       background-color:blue;
+   }
+
+    .SRM{
+        top: 100px;
+        height: 50PX;
+        width: 100PX;
+        border: 1px solid black;
+        text-align: center;
+        align-content: center;
+        position: absolute;
+        left: 600PX;
+    } 
+
+    .SRM:HOVER{
+       
+       color: rgb(255, 255, 255);
+       background-color:blue;
+   }
+
+    .OTHER{
+        height: 50PX;
+        width: 100PX;
+        border: 1px solid black;
+        text-align: center;
+        align-content: center;
+        position: absolute;
+        left: 800PX;
+        top: 100PX;
+    }
+
+    .OTHER:HOVER{
+       
+       color: rgb(255, 255, 255);
+       background-color:blue;
+   }
+
+    .ORPHANAGE{
+
+        height: 50PX;
+        width: 100PX;
+        border: 1px solid black;
+        text-align: center;
+        align-content: center;
+        position: absolute;
+        left: 1000PX;
+        top: 100PX;
+    }
+
+    .ORPHANAGE:HOVER{
+       
+       color: rgb(255, 255, 255);
+       background-color:blue;
+   }
+
+    .MORE{
+
+        height: 50PX;
+        width: 100PX;
+        border: 1px solid black;
+        text-align: center;
+        align-content: center;
+        position: absolute;
+        left: 1200PX;
+        top: 100PX;
+    }
+
+    .MORE:HOVER{
+       
+       color: rgb(255, 255, 255);
+       background-color:blue;
+   }
+    
+
+   /* logo style start */
+   
+
+   img{
+        height: 200px; 
+        width: 200px; 
+    }
+   
+    .content{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    /* background: rgba(0,0,0,0.6); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6;
+    background: gray;
+   }
+
+   .content:hover{
+    opacity: 1;
+   }
+
+   .content h1{
+    font-size: 35px;
+    color: #ffe100;
+    margin-bottom: 150px;
+    margin-left: -118px;
+    top: 20px;
+   }
+
+   .content p{
+    font-size: 19px;
+    color: #fff;
+    margin-top: 55px;
+   }
+
+   .content >*{
+    transform: translateY(25px);
+    transition: transform 0.6s;
+   }
+
+  .content:hover > *{
+    transform: translateY(0px);
+  }
+
+ 
+ 
+
+  .dc{
+      height: 200px;
+      width: 200px;
+      border: 1px solid rgb(0, 0, 0);
+      position: relative;
+      top: -900px;
+      left: 40px;
+  }
+
+  .gl{
+      height: 200px;
+      width: 200px;
+      border: 1px solid rgb(0, 0, 0);
+      position: relative;
+      top: -1100px;
+      left: 1050px;
+    }
+
+    
+
+    .kkr{
+        height: 200px;
+         width: 200px;
+         border:1px solid rgb(16, 16, 16);
+         position: relative;
+         top: -1200px;
+         left: 550px;
+     }
+
+     .lsg{
+        height: 200px;
+         width: 200px;
+         border:1px solid rgb(16, 16, 16);
+         position: relative;
+         top: -1400px;
+         left: 1050px;
+     }
+
+     .csk{
+        height: 200px;
+         width: 200px;
+         border:1px solid rgb(16, 16, 16);
+         position: relative;
+         top: -380px;
+         left: 40px;
+     }
+
+     .gt{
+        height: 200px;
+         width: 200px;
+         border:1px solid rgb(16, 16, 16);
+         position: relative;
+         top: -1300px;
+         left: 550px;
+     }
+
+
+     /* 1 to 6 logo end */ 
+     
+     /* our team start  */
+
+     .team{
+            position: absolute;
+            left: 500px;
+            top: 100px;
+            z-index: 1;
+        }
+/* --------------------div 8  ------------------- */
+     .teams{
+      position: relative;
+      top: -1200px;
+      background: rgb(255, 210, 156);
+      height: 1000px;
+      width: 1500px;
+    }
+ /* --------------------div 8  ------------------- */   
+    .img2{
+        height: 300px; 
+        width: 300px;
+        position: absolute; 
+        left:50px;
+        top: 30px;
+    }
+
+    h1{
+        position: absolute;
+        bottom: -5px;
+        left: 170px;
+    }
+
+    .mi{
+        height: 400px;
+        width: 400px;
+        background: #e2dbdb;
+        position: absolute;
+        left:1000px;
+        top:100px;
+        z-index: 1;
+     }
+
+  
+    .mi:hover{
+        background-color: rgb(109, 26, 165);
+        transition: 0.2s;
+    }
+
+    .pbks{
+        height: 400px;
+        width: 400px;
+        background: #e2dbdb;
+        position: absolute;
+        left:10px;
+        top:550px;
+     }
+
+     .pbks:hover{
+        background-color: rgb(109, 26, 165);
+        transition: 0.2s;
+    }
+
+    
+    .rcb{
+        height: 400px;
+        width: 400px;
+        background: #e2dbdb;
+        position: absolute;
+        left:500px;
+        top:100px;
+     }
+
+     .rcb:hover{
+        background-color: rgb(109, 26, 165);
+        transition: 0.2s;
+    }
+
+     
+    .rps{
+        height: 400px;
+        width: 400px;
+        background: #e2dbdb;
+        position: absolute;
+        left:1000px;
+        top:550px;
+        z-index: 1;
+     }
+
+     .rps:hover{
+        background-color: rgb(109, 26, 165);
+        transition: 0.2s;
+    }
+
+    
+    .rr{
+        height: 400px;
+        width: 400px;
+        background: #e2dbdb;
+        position: absolute;
+        left:10px;
+        top:100px;
+     }
+
+     .rr:hover{
+        background-color: rgb(109, 26, 165);
+        transition: 0.2s;
+    }
+
+       
+    .srh{
+        height: 400px;
+        width: 400px;
+        background: #e2dbdb;
+        position: absolute;
+        left:500px;
+        top:550px;
+     }
+
+     .srh:hover{
+        background-color: rgb(109, 26, 165);
+        transition: 0.2s;
+    }
+
+
+
+
+   
+    
+    
+
+    
+
+
+ 
+
+ 
+
+
+
+  
+
+ 
+  /* -----------------div 6--------------------      */
+    .add{
+
+        margin-left:500px;
+        margin-top: -1100px;
+        align-items:start;
+        align-content: center;
+        height: 400px;
+        width: 1500px;
+        text-align:start;
+      background: rgb(255, 255, 255);
+    }
+      /* -----------------div 6--------------------      */
+
+    .map{
+        
+        margin-left: 100px;
+        height: 200px;
+        width: 1200px;
+        position: relative;
+        top: -300px;
+        background: #ffe100;
+}
+
+      /* -----------------div 7--------------------      */
+    .footer{
+        height: 100px;
+        width: 1500px;
+        background: rgb(7, 190, 10);
+        z-index: 1;
+        position: relative;
+        top: 70px;
+
+    }
+  /* -----------------div 7--------------------      */
+    .footer img{
+        height: 10px;
+        width: 10px;
+    }
+
+
+
+    </style>
+
+           
+<!-- style over -->
+
+</head>
+<body>
+<div class="bg">
+        
+      <!-- <div class="a"><h2 style="color: aliceblue;" style="arial">T4TEQ</h2></div> -->
+    <header>
+      <nav>
+        <ul class="nav-links">
+        <!-- <li> <div class="a"><h2 style="color: aliceblue; font-family: Arial, Helvetica, sans-serif;">T4TEQ</h2></div> </li> -->
+
+        <b><li><a href="#">T4TEQ</a></li></b>
+        <li><a href="#hme">HOME</a></li>  
+        <li><a href="#abs">ABOUT US</a></li>
+        <li><a href="#crs">COURSES</a></li>
+        <li><a href="#glr">GALLERY</a></li>
+        <li><a href="#tm">TEAM</a></li>
+        <li><a href="#tst">TESTIMONIAL</a></li>
+        <li><a href="#cnt">CONTACT</a></li>
+        <li><a href="#vrf">VERIFICATION</a></li>
+        
+        
+    </header>
+        
+      </nav>
+
+      <br>
+      <div id="hme">
+      <div class="c"> <h1 style="color: rgb(0, 255, 26);">CORPORATE TRAINING </h1> </div>
+
+      <pre class="pre">
+        
+        <h3><b style="color: rgb(255, 72, 0);" style="background-color: rgb(243, 255, 10);">Click to Attend<br>
+           Daily Challenge
+        </b></h3>
+        </pre>
+
+        <div class="pres">
+
+        </div>
+</div>
+</div>
+ 
+
+   <div id="abs">
+        <center>  <div class="para">  <div class="ap"><h1>ABOUT<span style="color: blue;"> US </span></h1></div>
+
+            <div class="sen">
+<p style="font-size: x-large;"><b>T4TEQ Software Solutions</b> is a software development and training company that was founded in 2017<br>
+in Tiruchirappalii, Tamil Nadu, India, it hegan as a small training company, but it was incorporated in<br> under the Ministry of Corporate Affairs, Govt. of India as a corporate training and development<br>
+ company. It is internationally accredited as an ISO 9001:2015 certified training company by System <br>
+                                and Product Certification, UK.</p>
+                           <br>
+                           <br>
+
+<p style="font-size:x-large;"><b>T4TEQ Software Solutions</b>was honoured for its outstanding achievements in training and education<br>
+by TPL Techno Awards, a prominent organization that recognizes excellence in the field of technology<br>
+The award was presented to T4TEQ Software Solutions as a "Best Training Company" at a ceremony <br>
+held in Dwarka, New Delhi. This award is a testament to T4TEQ Software Solutions' dedication to<br>
+               providing high-quality training and education to its students and clients.</p><br>
+                        <br>
+                         <br>
+
+<p style="font-size: x-large;"><b>T4TEQ Software Solutions</b> was founded with the mission of training, developing, and providing career<br>
+ guidance to students. It aims to produce skilled and well-rounded employees for the IT and ITES<br> 
+ industries. T4TEQ offers end-to-end training programs in programming, soft skills, and interview <br>
+ training, as well as collaborative software projects and real time scenarios for corporates and<br>
+                                 educational institutions</p>  </center></div>
+                                <br>
+                                 <br>
+
+    
+                                 <div class="sd">                                                   
+    
+                                    <h1>Software<br>                                              
+                                      Development</h1>                                             
+                                </div>                                                            
+                                    
+                                <div class="ct">
+                                    <h1>
+                                       Corporate<br>Training
+                                    </h1>
+                                </div>       
+                                
+                                <br>
+                                
+                                
+                                
+                                <div class="cg">                                                   
+                                    <h1>Career<br>Guidance</h1>                                              
+                                </div> 
+                                
+                                <div class="Vac">                                                   
+                                    <h1>Value Added<br>Courses</h1>                                              
+                                </div>
+</div>
+
+
+
+
+
+
+    <div class="facts">
+        <center>
+            <div class="h2"><h2 style="color: rgb(9, 1, 255);">SOME FACTS ABOUT US</h2></div>
+
+                            <br>
+
+           <div class="sd1"><h1>74+</h1></div><br><div class="w"><b>Software Developed</b></div>
+
+           <div class="ps"><h1>623+</h1></div><br><div class="x"><b>Placed students</b></div>
+
+           <div class="it"><h1>1500+</h1></div><br><div class="y"><b>Interview Tasks</b></div>
+
+           <div class="ct1"><h1>21+</h1></div><br><div class="z"><b>corporate Trainers</b></div>
+
+
+
+        </center>
+    </div>
+</div>
+   <center> 
+
+<div id="crs">
+    <div class="course">
+        <div class="oc"><h1>OUR <span style="color: blue;">COURSES</span></h1> </div>
+
+    <div class="programming">
+        <h3>Programming</h3>
+        <li>C with Data Structure</li>
+        <li>Advance Java</li>
+        <li>Python Programming</li>
+        <li>R Language</li>
+    </div>
+
+    <div class="Webdevelopment">
+        <h3>Web development</h3>
+        <li>HTML,CSS</li>
+        <li>Java Script,J query</li>
+        <li>Angular Js</li>
+        <li>PHP</li>
+    </div>
+
+    <div class="technology">
+        <h3>Technology</h3>
+        <li>.NET Framework</li>
+        <li>.NET Core</li>
+        <li>ASP.NET</li>
+        <li>MVC Application</li>
+    </div>
+
+    <div class="DigitalMarketing">
+            <h3>Digital Marketing</h3>
+            <li>Strategy</li>
+            <li>SEO</li>
+            <li>Social Media Marketing</li>
+            <li>Google Analytics</li>
+    </div>
+
+    <div class="MobileApplication">
+        <h3>Mobile Application</h3>
+        <li>Android</li>
+        <li>Xamarin</li>
+        <li>Phone Gap</li>
+        <li>Ionic</li>
+    </div>
+
+    <div class="DataScience">
+        <h3>Data Science</h3>
+        <li>Probability and Statistics</li>
+        <li>Excel and Business Analytics</li>
+        <li>Python Programming</li>
+        <li>R Language</li>
+    </div>
+
+    <div class="UIUXDesign">
+        <h3>UI/UX Design</h3>
+        <li>Photoshop</li>
+        <li>Illustrator</li>
+        <li>Corel Draw</li>
+        <li>Desktop publishing</li>
+    </div>
+
+    <div class="Training">
+        <h3>Training</h3>
+        <li>Corporate Training</li>
+        <li>Aptitude Training</li>
+        <li>HR Training</li>
+        <li>Softskill Training</li>
+    </div>
+
+</div>
+
+</center>
+</div>
+<!-- training -->
+
+<div id="glr">
+<div class="Training2">
+<div class="trn"><h1>OUR <span style="color: blue;">TRAINING</span></h1></div>  <br>
+
+ <div class="ALL">ALL</div> 
+ <div class="OUR">OUR OFFICE</div>
+ <div class="KRCE">KRCE & KRCT</div>     
+ <div class="SRM">SRM TRP ENGG COLLEGE</div>    
+ <div class="OTHER">OTHER COLLEGES</div>     
+ <div class="ORPHANAGE">ORPHANAGE</div>  
+ <div class="MORE">MORE</div> 
+
+</div>
+
+  
+
+<div class="csk"> 
+    <img class="img" src="csk.jpeg"></img>
+   <div class="content">
+    <h1>T4TEQ</h1>
+    <P>MSD</P>
+   </div>
+</div>
+
+<div class="dc">
+<img class="img" src="dc.png"></img>
+   <div class="content">
+    <h1>T4TEQ</h1>
+    <P>PANT</P>
+   </div>
+</div>
+
+<div class="gl">
+<img class="img" src="gl.jpeg" ></img>
+   <div class="content">
+    <h1>T4TEQ</h1>
+    <P>RAINA</P>
+   </div>
+</div>
+
+<div class="gt">
+<img class="img" src="GT.png" ></img>
+   <div class="content">
+    <h1>T4TEQ</h1>
+    <P>HARDIK</P>
+   </div>
+</div>
+
+<div class="kkr">
+<img class="img" src="kkr.jpeg" ></img>
+   <div class="content">
+    <h1>T4TEQ</h1>
+    <P>IYER</P>
+   </div>
+</div>
+
+<div class="lsg">
+<img class="img" src="LSG.jpeg" ></img>
+   <div class="content">
+    <h1>T4TEQ</h1>
+    <P>RAHUL</P>
+   </div>
+</div>
+</div>
+
+
+
+
+
+<div class="teams">
+        <!-- <div id="tm"> -->
+    
+    <div class="team">
+            <h1>OUR <span style="color: blue;">TEAM</span></h1>
+    </div> 
+        <!-- </div> -->
+
+    <div class="mi">
+    <img class="img2"src="mi.jpeg"></img> 
+    <br>
+    <h1>2001</h1>
+    </div>
+
+    <div class="pbks">
+    <img class="img2"src="pbks.jpeg"></img> 
+    <br>
+    <h1>2002</h1>
+    </div>
+
+    <div class="rcb">
+    <img class="img2"src="rcb.jpeg"></img> 
+    <br>
+    <h1>2003</h1>
+    </div>
+
+    <div class="rps">
+    <img class="img2"src="rps.jpeg"></img> 
+    <br>
+    <h1>2004</h1>
+    </div>
+
+    <div class="rr">
+    <img class="img2"src="rr.png"></img> 
+    <br>
+    <h1>2005</h1>
+    </div>
+
+    <div class="srh">
+    <img class="img2"src="srh.jpeg"></img> 
+    <br>
+    <h1>2006</h1>
+    </div>
+
+
+</div>
+<!-- </div> -->
+
+
+
+
+
+
+
+<div id="cnt">
+<div class="contact">
+   <center>
+    <div class="cu"> <h1>CONTACT <span style="color: blue;">US</span></h1> </div>
+
+    <P>For Doubts and Queries,message here.T4TEQ Will Contact you Soon.</P>
+
+     
+    <div class="letters"><input type="letters" placeholder="Name"> </div>
+    <div class="number">   <input type="numbers" placeholder="Enter Mobile number"></div>
+    <div class="mail"><input type="email" placeholder="Enter Mail"></div>
+    <div class=" message"> <input type="letters" placeholder="Message"></div>
+    
+    <div class="button"><button>SUBMIT</button></div>
+</div>
+   </center>
+
+   <div class="add">
+
+    <b>Our Corporate Offices:</b> <br>
+   <b> Puthur Office</b><br>
+   #5, All Saints Complex, Puthur High Road,Trichy-17<br><br>
+
+   <b> Thillai Nagar Office</b><br>
+   #C85, K.M. Towers, 5th Cross, North East Extn., Thillai Nagar, Trichy-18<br><br>
+
+   <b> Kattur Office</b><br>
+   #12, Navaladiyan Arcade, Oil Mill Bus Stop, Kattur, , Trichy-19<br><br>
+
+   info@t4teq.com<br><br>
+
+   Puthur - +91 754-004-6220<br><br>
+
+   Thillai Nagar - +91 754-008-6220<br><br>
+
+   Kattur - +91 744-854-6220
+
+   </div>
+</div>
+
+   <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.931498473036!2d78.6744677748055!3d10.816554289334665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baaf5a3a4d863d3%3A0x1a4d128a858bca67!2sT4TEQ%20Software%20Solutions%2CPuthur%20-%20Best%20Training%20Company%20for%20Data%20Science%2C%20Power%20BI%2C%20Python%2C%20ML%2C%20%26%20UI%2FUX!5e0!3m2!1sen!2sin!4v1718430677981!5m2!1sen!2sin" width="1200" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+   </div>
+   
+   <div id="vrf">
+   <div class="footer">
+    <center>
+        <p>Apply for Certificate . Employee Access . Certificate Validation . T4TEQ Python Internship Registration</p>
+                        <img src="cr.png" alt="1"> Copyright <b>T4TEQ Software Solutions</b> All rights reserved
+    </center>
+  </div>
+</div>
+
+
+
+ 
+
+
+<div>
+    <div>
+
+
+
+
+</body>
+</html>
